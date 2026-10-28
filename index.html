@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WK8 Assignment - Interactive Image Map</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Interactive Map of the Northern Mariana Islands</h1>
+        <p>Hover over the islands to explore specific links.</p>
+    </header>
+
+    <main class="map-container">
+        <img src="Mariana-Islands-Archipelago-with-maps-of-Rota-Saipan-Tinian-showing-locations-of-study.webp" 
+             alt="Map of the Northern Mariana Islands" 
+             usemap="#image-map" 
+             class="map-image">
+
+        <map name="image-map">
+            <area shape="rect" coords="377,158,577,533" alt="Visit Tinian" title="Visit Tinian" href="https://mymarianas.com" target="_blank" rel="noopener">
+            
+            <area shape="poly" coords="229,358,121,316,116,121,173,70,336,5,370,48,306,250" alt="Visit Saipan" title="Visit Saipan" href="https://mymarianas.com" target="_blank" rel="noopener">
+            
+            
+            <area shape="circle" coords="386,682,197" alt="Visit Rota" title="Visit Rota" href="https://mymarianas.com" target="_blank" rel="noopener">
+        </map>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Web Development Student Portfolio</p>
+    </footer>
+
+</body>
+</html>

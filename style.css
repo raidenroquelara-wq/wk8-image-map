@@ -1,0 +1,38 @@
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f7f6;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+    color: #333;
+}
+
+header {
+    margin-bottom: 30px;
+}
+
+.map-container {
+    display: inline-block; 
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.map-image {
+    width: 450px; 
+    height: auto;
+    display: block;
+    aspect-ratio: 642 / 892;
+    image-rendering: -webkit-optimize-contrast;
+    image-rendering: crisp-edges;
+}
+
+footer {
+    margin-top: 40px;
+    font-size: 0.9em;
+    color: #666;
+}
